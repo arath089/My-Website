@@ -1,0 +1,40 @@
+
+
+body{
+	background-color: black ;
+}
+
+img {
+	width: 600px;
+	height: 600px; 
+	padding: 0;
+	margin:0;   
+}
+
+.header { 
+font-family: sans-serif; 
+text-align: center;
+font-size: 60px;
+color: white;
+padding: 300px 300px 100px 300px;
+margin: 0;
+}
+.social-icons {
+  text-align: center;
+  }  
+.social-icons li {
+  display:inline-block;
+  list-style-type:none;
+  -webkit-user-select:none;
+  -moz-user-select:none;
+  }
+.social-icons li a {
+  border-bottom: none;
+  }
+.social-icons li img {
+  width:7px;
+  height:7px;
+  margin-right: 20px;
+}
+
+
