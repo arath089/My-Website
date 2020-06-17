@@ -16,25 +16,44 @@ font-family: sans-serif;
 text-align: center;
 font-size: 60px;
 color: white;
-padding: 300px 300px 100px 300px;
+padding: 300px 300px 200px 300px;
 margin: 0;
 }
-.social-icons {
-  text-align: center;
-  }  
-.social-icons li {
-  display:inline-block;
-  list-style-type:none;
-  -webkit-user-select:none;
-  -moz-user-select:none;
-  }
-.social-icons li a {
-  border-bottom: none;
-  }
-.social-icons li img {
-  width:7px;
-  height:7px;
-  margin-right: 20px;
+
+.github_icon{
+	width: 50px;
+	height: 50px;
+	padding-left: 550px;
+	padding-bottom: 50px;
+	margin:0;   
+
+}
+.Linkedin_icon{
+	width: 50px;
+	height: 50px;
+	padding-bottom: 50px;
+	margin:0;   
+
+}
+.mail_icon{
+	width: 50px;
+	height: 50px;
+	padding-bottom: 50px;
+	margin:0;   
+
+}
+.Twitter_icon{
+	width: 50px;
+	height: 50px;
+	padding-bottom: 50px;
+	margin:0;   
+
 }
 
-
+p{
+	background-color: white;
+	width: 500px;
+	height: 500px;    
+	font-family: courier;
+	font-size: 30px;
+}
