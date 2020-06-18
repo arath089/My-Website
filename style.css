@@ -4,13 +4,6 @@ body{
 	background-color: black ;
 }
 
-img {
-	width: 600px;
-	height: 600px; 
-	padding: 0;
-	margin:0;   
-}
-
 .header { 
 font-family: sans-serif; 
 text-align: center;
@@ -18,6 +11,7 @@ font-size: 60px;
 color: white;
 padding: 300px 300px 200px 300px;
 margin: 0;
+background: linear-gradient( #546E7A,#546E7A,#263238, black);
 }
 
 .github_icon{
@@ -29,6 +23,13 @@ margin: 0;
 
 }
 .Linkedin_icon{
+	width: 50px;
+	height: 50px;
+	padding-bottom: 50px;
+	margin:0;   
+
+}
+.CV_icon{
 	width: 50px;
 	height: 50px;
 	padding-bottom: 50px;
@@ -49,11 +50,25 @@ margin: 0;
 	margin:0;   
 
 }
+img {
+	width: 600px;
+	height: 600px; 
+	padding: 0;
+	margin:0; 
 
-p{
-	background-color: white;
-	width: 500px;
-	height: 500px;    
-	font-family: courier;
-	font-size: 30px;
 }
+p{
+	float: right;
+	background-color: #E5E8E8;
+	width: 703px;
+	height: 520px;    
+	font-family: sans-serif;
+	line-height: 25px;
+	font-size: 15px;
+	padding-top:80px;
+	margin:0; 
+	border-left: solid #E5E8E8 20px;
+	border-right: solid #E5E8E8 10px;
+}
+
+
