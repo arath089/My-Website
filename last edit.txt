@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width,initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@800&display=swap" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<title>Archit Rathi</title>
+	</head>
+
+	<body>
+		<div class="container">
+			<div class="banner">
+				<h1>
+					<span>ARCHIT</span>
+					<span> RATHI</span>
+				</h1>
+			</div>
+			<div class="social-icons">
+				<a href="https://github.com/arath089" class="github_icon">
+					<img src="E:\Website\icons\Github.png" width="70vh" height="70vh">
+				</a>
+				<a href="https://www.linkedin.com/in/archit-rathi/" class="Linkedin_icon">
+					<img src="E:\Website\icons\Linkedin.png" width="70vh" height="70vh">
+				</a>
+				<a href="https://arath089.github.io/CV/Archit%20Rathi.pdf" class="CV_icon">
+					<img src="E:\Website\icons\CV.png" width="70vh" height="70vh">
+				</a>
+				<a href="mailto: arath089@uottawa.ca" class="mail_icon">
+					<img src="E:\Website\icons\mail.jpg" width="70vh" height="70vh">
+				</a>
+				<a href="https://twitter.com/architrrathi" class="Twitter_icon">
+					<img src="E:\Website\icons\Twitter.png" width="70vh" height="70vh">
+				</a>
+				<a href="https://calendly.com/architrrathi" class="calendar">
+					<img src="E:\Website\icons\calendar-flat.png" width="70vh" height="70vh">
+				</a>
+			</div>
+		</div>
+
+		<div>
+			<img src="E:\Website\images\rathi.jpg" class="My_Pic" width="500vw" height="500vh">
+		</div>
+
+		<div>
+			<p class="My_intro">
+				<br> <br>
+					Hi, I'm Archit.
+				<br><br>
+					I am a recent Graduate Alumni of the <strong><a href="https://www.uottawa.ca/en" style="text-decoration: none;color:#D35400"> University of Ottawa</a></strong> with a Masters of Engineering in Electrical and Computer Engineering seeking full-time job opportunities.
+				<br><br>
+					I'm always intrigued by technology, specifically <strong><a href="https://github.com/arath089"style="text-decoration: none color:#616A6B"> FPGA designing, Gaming and Web Development.</a></strong>
+				<br><br>
+					I take leisure in <strong><a href="https://www.instagram.com/p/B4AO0rQH-83/" style="text-decoration: none;color:#2E86C1">Traveling </a></strong>,<strong><a href="https://www.instagram.com/p/BnVMn1wl3xu/" style="text-decoration: none;color:
+					CB4335"> Biking,</a></strong> <strong><a href="https://www.instagram.com/p/Bwa7E0YAB5s/" style="text-decoration: none;color:#28B463"> Guitar,</a></strong> <strong><a style="text-decoration: none;color:#7D3C98">fabulous foods</a></strong>  and even better,<strong><a style="text-decoration: none;color:#F1C40F">  conversations.</a></strong>
+				<br><br>
+					Seeking to be inspired, to envision the unlikely, to work hard for things that are worth it, and to be surrounded by those who bring out the best in me.
+				<br><br>
+					<strong><a href="https://www.linkedin.com/in/archit-rathi/" style="color:#D35400; text-decoration:none">Say Hi!</a></strong>
+			</p>
+		</div>
+		<div class="About_me">
+			<div class="Projects">
+				<a href="My_Projects.html" style="text-decoration: none">
+					<h1>My Projects</h1>
+				</a>
+			</div>
+
+			<div class="Education">
+				<a href="My_Education.html" style="text-decoration: none">
+					<h1>My Education</h1>
+				</a>
+			</div>
+
+			<div class="Experience">
+				<a href="My_Experience.html" style="text-decoration: none">
+					<h1>My Experience</h1>
+				</a>
+			</div>
+		</div>
+		<div class="Timeline">
+
+
+		</div>
+	</body>
+</html>

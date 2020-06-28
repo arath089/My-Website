@@ -1,0 +1,28 @@
+*{
+	padding:0;
+	margin: 0;
+}
+
+.banner{
+	font-family: 'Oxanium', cursive;
+	font-size: 30px;
+	padding:49vh 50vh 30vh 50vh;
+	text-align: center;
+	background-image: url('E:\Website\Images\Back.jpeg');
+	background: cover;
+}
+.social-icons{
+	padding: 0 27% 0 33%;
+	background-color: black;
+	display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+.My_Pic{
+	float: left;
+	padding:0 10px 10px 0;
+}
+.About_me{
+	clear: left;
+}

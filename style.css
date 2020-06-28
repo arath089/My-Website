@@ -1,68 +1,112 @@
-*{
-	margin: 0;
-	padding:0;
-	font-family: sans-serif;
-	min-height: 100%;
+body{
+   margin: 0;
+   background: linear-gradient(-70deg, #222 70%, #444 30%);
+   font-family: 'Work Sans', sans-serif;
+   font-weight: 400;
 }
-.container{
-	width: 100%;
-	height: 100vh;
-	background: url(jj.jpeg) center no-repeat;
-	background-size: cover;
+
+.navbar{
+    width: 80%;
+    margin: 0 auto;
 }
-.banner{
-	width: 100%;
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%);
-	text-align: center;
-	font-size: 30px;
+ header{
+     background:#55d6aa ;
+     border-bottom-left-radius: 100%;
+ }
+
+ header ::after{
+     content: '';
+     display: table;
+     clear: both;
+ }
+
+ nav{
+     float: right;
+    
+ }
+
+ nav ul{
+     margin: 0;
+     padding: 0;
+     list-style: none;
+ }
+
+ nav li{
+     display: inline-block;
+     margin: 10px 30px;
+     line-height: 55px;
+     position: relative;
+ }
+
+ nav a{
+     color: #444;
+     text-decoration: none;
+     text-transform: uppercase;
+     font-size: 16px;
+ }
+
+ nav a:hover{
+     color: #000;
+ }
+
+ nav a::before{
+     content: '';
+     display: block;
+     height: 5px;
+     width: 0%;
+     background-color: #444;
+     top: 0;
+     transition: all ease-in-out 250ms;
+ }
+
+ nav a:hover::before{
+     width: 100%;
+
+ }
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    border: solid 10px #444;
+    border-radius: 120px;
+}
+
+.tagline{
+   text-align: center;
+   color: white;
+   line-height: 7vh;
+   font-size: 17px;
+   font-family: 'Work Sans', sans-serif;
 }
 
 h1{
-	padding-bottom: 200px;
+   text-align: center;
+   color: white;
+   font-weight: 600;
+   font-size: 35px;
+   font-family: 'Josefin Sans', sans-serif;
 }
 
-.github_icon{
-	width: 50px;
-	height: 50px;
-	margin:0;   
-	transform: translate(-50%);
-	text-align: center;
-
+.quote{
+    text-align: center;
+   color: white;
+   font-size: 27px;
+   font-weight: 400;
+   font-family: 'Qwigley', cursive;
 }
-.Linkedin_icon{
-	width: 50px;
-	height: 50px;
-	margin:0;
-	padding-right: 0;  
-	transform: translate(-50%);
-	text-align: center; 
 
-}
-.CV_icon{
-	width: 50px;
-	height: 50px;
-	margin:0;  
-	padding: 0; 
-	transform: translate(-50%);
-	text-align: center; 
-
-}
-.mail_icon{
-	width: 50px;
-	height: 50px;
-	margin:0;  
-	transform: translate(-50%);
-	text-align: center; 
-
-}
-.Twitter_icon{
-	width: 50px;
-	height: 50px;
-	margin:0;  
-	transform: translate(-50%);
-	text-align: center; 
-
+button{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+   background:#e74c3c;
+   border:15px #e74c3c ;
+   border-radius: 20px;
+   padding: 5px 20px 5px 20px;
+   font-family: 'Lobster', cursive;
+   color: #1B2631;
+   font-size: 17px;
+   font-weight: 400;
 }
